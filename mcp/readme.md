@@ -18,7 +18,7 @@ To connect this server to **Cursor IDE**, add the following to your `mcp.json`:
 ```json
 "sql-explorer-readOnly": {
   "type": "http",
-  "url": "http://192.168.0.119:8009/mcp",
+  "url": "http://localhost:8009/mcp",
   "timeout": 60,
   "disabled": false
 }
