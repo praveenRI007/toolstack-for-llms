@@ -6,7 +6,7 @@ This repository implements a **Model Context Protocol (MCP)** server that expose
 
 ## 🔌 MCP Endpoint
 
-http://192.168.0.119:8009/mcp
+http://localhost:8009/mcp
 
 
 ---
