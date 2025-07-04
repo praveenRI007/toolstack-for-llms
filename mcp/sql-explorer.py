@@ -8,9 +8,6 @@ import pandas as pd
 # Initialize FastMCP server
 mcp = FastMCP("SQL Server Explorer", log_level="CRITICAL")
 
-# Connection string must be provided via MSSQL_CONN_STR environment variable
-# if 'MSSQL_CONN_STR' not in os.environ:
-#     raise ValueError("MSSQL_CONN_STR environment variable must be set")
 
 CONN_STR = "DRIVER={ODBC Driver 17 for SQL Server};SERVER={server_name};DATABASE={db_name};UID=pyservice;PWD={password}" 
 
